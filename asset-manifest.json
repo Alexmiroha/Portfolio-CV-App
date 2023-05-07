@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio-CV-App/static/css/main.4ea30380.css",
+    "main.js": "/Portfolio-CV-App/static/js/main.a7d0acad.js",
+    "static/js/787.13a0712d.chunk.js": "/Portfolio-CV-App/static/js/787.13a0712d.chunk.js",
+    "index.html": "/Portfolio-CV-App/index.html",
+    "main.4ea30380.css.map": "/Portfolio-CV-App/static/css/main.4ea30380.css.map",
+    "main.a7d0acad.js.map": "/Portfolio-CV-App/static/js/main.a7d0acad.js.map",
+    "787.13a0712d.chunk.js.map": "/Portfolio-CV-App/static/js/787.13a0712d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ea30380.css",
+    "static/js/main.a7d0acad.js"
+  ]
+}
