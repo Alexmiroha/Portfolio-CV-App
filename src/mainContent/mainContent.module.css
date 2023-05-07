@@ -1,5 +1,21 @@
 .mainContent {
     width: 100%;
     height: 100vh;
-    background-color: #fbd561;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.test1 {
+    width: 700px;
+    height: 200px;
+    background-color: #d261fb;
+}
+
+.test2 {
+    width: 700px;
+    height: 200px;
+    background-color: #61fbb3;
 }
