@@ -8,12 +8,20 @@ const Header = () => {
                 <div className={s.logo}>
                     Alexmiroha.dev
                 </div>
-                <div className={s.buttons}>
-                    <button className={s.button}>Home</button>
-                    <button className={s.button}>About</button>
-                    <button className={s.button}>Projects</button>
-                    <button className={s.button}>Contact</button>
-                </div>
+                <ul className={s.headerButtons}>
+                    <li className={s.button}>
+                        <a href="">Home</a>
+                    </li>
+                    <li className={s.button}>
+                        <a href="">About</a>
+                    </li>
+                    <li className={s.button}>
+                        <a href="">Projects</a>
+                    </li>
+                    <li className={s.button}>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
             </div>
 
         </div>

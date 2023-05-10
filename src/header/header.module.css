@@ -6,6 +6,7 @@
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
     z-index: 100;
+    max-height: 67px;
 }
 
 .headerContainer {
@@ -16,10 +17,15 @@
 
 .logo {
     font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.headerButtons {
+    display: flex;
 }
 
 .button {
-    color: #1f1f1f;
     font-weight: 500;
     background-color: #fff;
     border: none;
