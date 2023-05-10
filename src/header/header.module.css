@@ -25,7 +25,7 @@
     display: flex;
 }
 
-.button {
+.headerButtons a {
     font-weight: 500;
     background-color: #fff;
     border: none;
@@ -38,7 +38,7 @@
 
 }
 
-.button:hover {
+.headerButtons a:hover {
     color: #d261fb;
     cursor: pointer;
 }
