@@ -4,7 +4,7 @@ import s from './header.module.css'
 const Header = () => {
     return (
         <div className={s.header}>
-            <div className={s.headerContainer}>
+            <nav className={s.headerContainer}>
                 <div className={s.logo}>
                     Alexmiroha.dev
                 </div>
@@ -22,7 +22,7 @@ const Header = () => {
                         <a href="">Contact</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
 
         </div>
     );

@@ -11,7 +11,7 @@ import MUI from '../../../img/MUI.svg'
 const IntroSkills = () => {
     return (
         <div className={s.introSkills}>
-            <p className={s.description}>Tech Stack |</p>
+            <p className={s.description}>Tech Stack &nbsp;&nbsp;|</p>
             <ul className={s.icons}>
                 <li>
                     <img className={s.icon} src={html} alt="HTML"/>
