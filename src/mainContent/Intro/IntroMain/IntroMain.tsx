@@ -10,11 +10,11 @@ const IntroMain = () => {
     return (
         <div className={s.introMain}>
             <div className={s.text}>
-                <h1 className={s.title}>Front-End React Developer
+                <h1 className={s.title}>Front-End React <br/>Developer
                     <img className={s.icon} src={icon} alt=""/>
                 </h1>
                 <p className={s.description}>
-                    Hi, I'm Oleksii Miroshnichenko. <br/>A passionate Front-end React Developer
+                    Hi, I'm Oleksii Miroshnichenko. <br/>A passionate Front-end React <br/>Developer
                     based in Warsaw, <br/>Poland.
                     <BiMap color='#d261fb'/>
                 </p>

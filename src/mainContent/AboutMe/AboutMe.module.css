@@ -1,0 +1,16 @@
+.AboutMe {
+    display: flex;
+}
+
+.imageSection {
+    width: 50%;
+}
+
+.infoSection {
+    width: 50%;
+    text-align: left;
+}
+
+.description {
+
+}

@@ -10,11 +10,11 @@ const AboutMe = () => {
             </div>
             <div className={s.infoSection}>
                 <h4>About me</h4>
-                <h3>
-                    An interested and enthusiastic Front-End developer based in Warsaw, Poland
+                <h3 className={s.title}>
+                    An interested and enthusiastic Front-End Developer <br/>based in Warsaw, Poland
                     <BiMap color='#d261fb'/>
                 </h3>
-                <p>
+                <p className={s.description}>
                     As a Junior Front-End Developer,
                     I possess an impressive arsenal of skills
                     in HTML, CSS, JavaScript, React, Tailwind,
