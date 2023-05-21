@@ -6,6 +6,28 @@
     width: 50%;
 }
 
+.imageSection {
+    max-width: 410px;
+    max-height: 350px;
+    overflow: hidden;
+    border-radius: 1.7rem;
+    margin-right: 85px;
+    margin-top: 1.33em;
+}
+
+.image {
+    max-width: 500px;
+    position: relative;
+    bottom: 300px;
+    right: 33px;
+}
+
+.icon {
+    position: absolute;
+    z-index: 100;
+    transform: scale(0.7);
+}
+
 .infoSection {
     width: 50%;
     text-align: left;

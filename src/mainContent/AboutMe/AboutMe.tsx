@@ -1,12 +1,18 @@
 import React from 'react';
 import s from './AboutMe.module.css'
 import {BiMap} from "react-icons/bi";
+import laptop from '../../img/laptop.jpg'
+import REACT from '../../img/logo192.png'
+import {Icon} from "../Intro/IntroSkills/Icon";
 
 const AboutMe = () => {
     return (
         <div className={s.AboutMe}>
             <div className={s.imageSection}>
-            image
+                <div className={s.icon}>
+                    <Icon src={REACT}/>
+                </div>
+                <img className={s.image} src={laptop} alt=""/>
             </div>
             <div className={s.infoSection}>
                 <h4>About me</h4>
