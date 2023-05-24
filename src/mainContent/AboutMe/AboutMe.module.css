@@ -18,16 +18,50 @@
 .image {
     max-width: 500px;
     position: relative;
-    bottom: 300px;
-    right: 33px;
+    bottom: 377px;
+    right: 48px;
 }
 
 .icon {
-    position: absolute;
+    position: relative;
     z-index: 100;
     transform: scale(0.7);
+    top: -11px;
+    left: -52px;
+    -webkit-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    -moz-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    -o-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
 }
 
+@-webkit-keyframes moveX {
+    from { left: -65px; } to { left: 302px; }
+}
+@-moz-keyframes moveX {
+    from { left: -65px; } to { left: 302px; }
+}
+@-o-keyframes moveX {
+    from { left: -65px; } to { left: 302px; }
+}
+@keyframes moveX {
+    from { left: -65px; } to { left: 302px; }
+}
+
+@-webkit-keyframes moveY {
+    from { top: -11px; } to { top: 293px; }
+}
+@-moz-keyframes moveY {
+    from { top: -11px; } to { top: 293px; }
+}
+@-o-keyframes moveY {
+    from { top: -11px; } to { top: 293px; }
+}
+@keyframes moveY {
+    from { top: -11px; } to { top: 293px; }
+}
+
+/*298*/
+/*304*/
 .infoSection {
     width: 50%;
     text-align: left;

@@ -1,14 +1,61 @@
-.icon {
+.flipCard {
+    background-color: transparent;
+    width: 39px;
+    height: 39px;
+    perspective: 1000px;
+    margin-right: 45px;
+    cursor: pointer;
+}
+
+.flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flipCard:hover .flipCardInner {
+    transform: rotateY(180deg);
+}
+
+.flipCardFront,
+.flipCardBack {
+    position: absolute;
+    top: -17px;
+    left: -17px;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flipCardFront {
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
-    box-shadow: 0 0 10px rgba(0,0,0,.09);
-    background-color: #ffffff;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
     border-radius: 100px;
     padding: 17px 17px;
-    margin-right: 22px;
     z-index: 100;
 }
 
 .logo {
-    width: 35px;
+    width: 39px;
+    height: 39px;
+}
+
+.flipCardBack {
+    background-color: #fff;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+    border-radius: 100px;
+    padding: 17px 17px;
+    margin-right: 22px;
+    z-index: 100;
 }
