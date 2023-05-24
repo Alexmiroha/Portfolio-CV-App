@@ -28,36 +28,36 @@
     transform: scale(0.7);
     top: -11px;
     left: -52px;
-    -webkit-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-    -moz-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-    -o-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-    animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+    -webkit-animation: moveX 3s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+    -moz-animation: moveX 3s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+    -o-animation: moveX 3s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+    animation: moveX 3s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
 }
 
 @-webkit-keyframes moveX {
-    from { left: -65px; } to { left: 302px; }
+    from { left: -50px; } to { left: 310px; }
 }
 @-moz-keyframes moveX {
-    from { left: -65px; } to { left: 302px; }
+    from { left: -50px; } to { left: 310px; }
 }
 @-o-keyframes moveX {
-    from { left: -65px; } to { left: 302px; }
+    from { left: -50px; } to { left: 310px; }
 }
 @keyframes moveX {
-    from { left: -65px; } to { left: 302px; }
+    from { left: -50px; } to { left: 310px; }
 }
 
 @-webkit-keyframes moveY {
-    from { top: -11px; } to { top: 293px; }
+    from { top: 5px; } to { top: 285px; }
 }
 @-moz-keyframes moveY {
-    from { top: -11px; } to { top: 293px; }
+    from { top: 5px; } to { top: 285px; }
 }
 @-o-keyframes moveY {
-    from { top: -11px; } to { top: 293px; }
+    from { top: 5px; } to { top: 285px; }
 }
 @keyframes moveY {
-    from { top: -11px; } to { top: 293px; }
+    from { top: 5px; } to { top: 285px; }
 }
 
 /*298*/
