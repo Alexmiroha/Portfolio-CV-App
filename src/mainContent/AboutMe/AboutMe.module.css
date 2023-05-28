@@ -18,7 +18,7 @@
 .image {
     max-width: 500px;
     position: relative;
-    bottom: 377px;
+    bottom: 345px;
     right: 48px;
 }
 
@@ -26,38 +26,42 @@
     position: relative;
     z-index: 100;
     transform: scale(0.7);
-    top: -11px;
-    left: -52px;
+    top: 5px;
+    left: -49px;
     -webkit-animation: moveX 3s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
     -moz-animation: moveX 3s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
     -o-animation: moveX 3s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
     animation: moveX 3s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
 }
 
+.icon div {
+    cursor: default;
+}
+
 @-webkit-keyframes moveX {
-    from { left: -50px; } to { left: 310px; }
+    from { left: -49px; } to { left: 310px; }
 }
 @-moz-keyframes moveX {
-    from { left: -50px; } to { left: 310px; }
+    from { left: -49px; } to { left: 310px; }
 }
 @-o-keyframes moveX {
-    from { left: -50px; } to { left: 310px; }
+    from { left: -49px; } to { left: 310px; }
 }
 @keyframes moveX {
-    from { left: -50px; } to { left: 310px; }
+    from { left: -49px; } to { left: 310px; }
 }
 
 @-webkit-keyframes moveY {
-    from { top: 5px; } to { top: 285px; }
+    from { top: 5px; } to { top: 306px; }
 }
 @-moz-keyframes moveY {
-    from { top: 5px; } to { top: 285px; }
+    from { top: 5px; } to { top: 306px; }
 }
 @-o-keyframes moveY {
-    from { top: 5px; } to { top: 285px; }
+    from { top: 5px; } to { top: 306px; }
 }
 @keyframes moveY {
-    from { top: 5px; } to { top: 285px; }
+    from { top: 5px; } to { top: 306px; }
 }
 
 /*298*/
@@ -67,6 +71,19 @@
     text-align: left;
 }
 
-.description {
+.SectionTitle {
+    font-size: 17px;
+    font-weight: 700;
+    color: #147EFB;
+}
 
+.title {
+    font-weight: 800;
+}
+
+.description {
+    font-size: 17px;
+    font-family: Mulish, sans-serif;
+    line-height: 1.5;
+    font-weight: 500;
 }

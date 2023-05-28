@@ -5,6 +5,31 @@ import laptop from '../../img/laptop.jpg'
 import REACT from '../../img/logo192.png'
 import {Icon} from "../Intro/IntroSkills/Icon";
 
+export type SectionTitlePropsType = {
+    title: string
+}
+
+export const SectionTitle:React.FC<SectionTitlePropsType> = (props) => {
+    return (
+        <h4 className={s.SectionTitle}>{props.title}</h4>
+    )
+}
+
+export type MainTitlePropsType = {
+    title: string
+    displayIcon: string
+    iconColor: string
+}
+
+export const MainTitle:React.FC<MainTitlePropsType> = (props) => {
+    return (
+        <h3 className={s.title}>
+            {props.title}
+            <BiMap color={props.iconColor} display={props.displayIcon}/>
+        </h3>
+    )
+}
+
 const AboutMe = () => {
     return (
         <div className={s.AboutMe}>
@@ -15,11 +40,11 @@ const AboutMe = () => {
                 <img className={s.image} src={laptop} alt=""/>
             </div>
             <div className={s.infoSection}>
-                <h4>About me</h4>
-                <h3 className={s.title}>
-                    An interested and enthusiastic Front-End Developer <br/>based in Warsaw, Poland
-                    <BiMap color='#d261fb'/>
-                </h3>
+                <SectionTitle title={'ABOUT ME'}/>
+                <MainTitle title={'An interested and enthusiastic Front-End Developer based in Warsaw, Poland'}
+                           displayIcon={''}
+                           iconColor={'#147EFB'}
+                />
                 <p className={s.description}>
                     As a Junior Front-End Developer,
                     I possess an impressive arsenal of skills
