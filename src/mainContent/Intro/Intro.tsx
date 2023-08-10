@@ -5,10 +5,15 @@ import IntroSkills from "./IntroSkills/IntroSkills";
 
 const Intro = () => {
     return (
-        <div className={s.introBlock}>
-            <IntroMain/>
-            <IntroSkills/>
-        </div>
+        <section className='intro'>
+            <div className='contentContainer'>
+                <div className={s.introBlock}>
+                    <IntroMain/>
+                    <IntroSkills/>
+                </div>
+            </div>
+        </section>
+
     );
 };
 

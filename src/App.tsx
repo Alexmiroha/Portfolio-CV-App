@@ -8,11 +8,7 @@ function App() {
     return (
         <div className="App">
             <Header/>
-
-            <div className='contentContainer'>
-                <MainContent/>
-            </div>
-
+            <MainContent/>
             <Footer/>
 
         </div>

@@ -6,12 +6,17 @@
   font-family: Poppins,sans-serif;
   font-size: 1.3rem;
   color: #1f1f1f;
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 
 .contentContainer {
   width: 55vw;
   border: 1px solid red;
+}
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 ul {
@@ -26,4 +31,8 @@ li {
 a {
   text-decoration: none;
   color: #1F1F1F;
+}
+
+.intro, .projects {
+  background-color: #f6f6f6;
 }
