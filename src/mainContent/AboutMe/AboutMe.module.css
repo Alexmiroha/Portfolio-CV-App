@@ -39,29 +39,29 @@
 }
 
 @-webkit-keyframes moveX {
-    from { left: -49px; } to { left: 310px; }
+    from { left: -65px; } to { left: 300px; }
 }
 @-moz-keyframes moveX {
-    from { left: -49px; } to { left: 310px; }
+    from { left: -65px; } to { left: 300px; }
 }
 @-o-keyframes moveX {
-    from { left: -49px; } to { left: 310px; }
+    from { left: -65px; } to { left: 300px; }
 }
 @keyframes moveX {
-    from { left: -49px; } to { left: 310px; }
+    from { left: -65px; } to { left: 300px; }
 }
 
 @-webkit-keyframes moveY {
-    from { top: 5px; } to { top: 306px; }
+    from { top: -14px; } to { top: 290px; }
 }
 @-moz-keyframes moveY {
-    from { top: 5px; } to { top: 306px; }
+    from { top: -14px; } to { top: 290px; }
 }
 @-o-keyframes moveY {
-    from { top: 5px; } to { top: 306px; }
+    from { top: -14px; } to { top: 290px; }
 }
 @keyframes moveY {
-    from { top: 5px; } to { top: 306px; }
+    from { top: -14px; } to { top: 290px; }
 }
 
 /*298*/
