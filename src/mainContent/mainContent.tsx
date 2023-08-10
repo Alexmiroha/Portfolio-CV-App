@@ -3,6 +3,7 @@ import s from './mainContent.module.css'
 import Intro from "./Intro/Intro";
 import AboutMe from "./AboutMe/AboutMe";
 import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 
 const MainContent = () => {
     return (
@@ -10,6 +11,7 @@ const MainContent = () => {
             <Intro/>
             <AboutMe/>
             <Projects/>
+            <Contact/>
         </div>
     );
 };
