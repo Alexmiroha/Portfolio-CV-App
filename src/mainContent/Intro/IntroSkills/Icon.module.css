@@ -3,8 +3,9 @@
     width: 39px;
     height: 39px;
     perspective: 1000px;
-    margin-right: 45px;
+    margin-right: 25px;
     cursor: pointer;
+    padding: 18px;
 }
 
 .flipCardInner {
