@@ -1,34 +1,10 @@
 import React from 'react';
 import s from './AboutMe.module.css'
-import {BiMap} from "react-icons/bi";
 import laptop from '../../img/laptop.jpg'
 import REACT from '../../img/logo192.png'
 import {Icon} from "../Intro/IntroSkills/Icon";
-
-export type SectionTitlePropsType = {
-    title: string
-}
-
-export const SectionTitle: React.FC<SectionTitlePropsType> = (props) => {
-    return (
-        <h4 className={s.SectionTitle}>{props.title}</h4>
-    )
-}
-
-export type MainTitlePropsType = {
-    title: string
-    displayIcon: string
-    iconColor: string
-}
-
-export const MainTitle: React.FC<MainTitlePropsType> = (props) => {
-    return (
-        <h3 className={s.title}>
-            {props.title}
-            <BiMap color={props.iconColor} display={props.displayIcon}/>
-        </h3>
-    )
-}
+import {MainTitle} from "./MainTitle";
+import {SectionTitle} from "./SectionTitle";
 
 const AboutMe = () => {
     return (
@@ -45,7 +21,7 @@ const AboutMe = () => {
                     <div className={s.infoSection}>
                         <SectionTitle title={'ABOUT ME'}/>
                         <MainTitle title={'An interested and enthusiastic Front-End Developer based in Warsaw, Poland'}
-                                   displayIcon={''}
+                                   displayIcon={1}
                                    iconColor={'#147EFB'}
                         />
                         <p className={s.description}>

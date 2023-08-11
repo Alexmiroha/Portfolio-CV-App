@@ -1,9 +1,11 @@
 import React from 'react';
 
+import {SectionTitle} from "../AboutMe/SectionTitle";
+
 const Contact = () => {
     return (
         <div>
-            Contact
+            <SectionTitle title={'CONTACT'}/>
         </div>
     );
 };
