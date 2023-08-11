@@ -1,0 +1,15 @@
+.mainTitleComponent {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin: 0 15px 5px 0;
+    font-weight: 800;
+
+}
+
+.icons {
+
+}

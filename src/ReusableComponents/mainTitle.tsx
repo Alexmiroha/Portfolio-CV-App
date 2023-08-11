@@ -1,6 +1,6 @@
 import React from "react";
-import s from "./AboutMe.module.css";
-import {BiMap} from "react-icons/bi";
+import s from "../ReusableComponents/mainTitle.module.css";
+import {FaMapMarked} from "react-icons/fa";
 import {TbCodeCircle2} from "react-icons/tb";
 
 export type MainTitlePropsType = {
@@ -10,14 +10,14 @@ export type MainTitlePropsType = {
 }
 export const MainTitle: React.FC<MainTitlePropsType> = (props) => {
     return (
-        <h3 className={s.mainTitleComponent}>
-            <div className={s.title}>
+        <div className={s.mainTitleComponent}>
+            <h3 className={s.title}>
                 {props.title}
-            </div>
+            </h3>
             <div className={s.icons}>
-                <BiMap color={props.iconColor} display={props.displayIcon === 1 ? '' : 'none'}/>
+                <FaMapMarked color={props.iconColor} display={props.displayIcon === 1 ? '' : 'none'}/>
                 <TbCodeCircle2 color={props.iconColor} display={props.displayIcon === 2 ? '' : 'none'}/>
             </div>
-        </h3>
+        </div>
     )
 }

@@ -3,8 +3,8 @@ import s from './AboutMe.module.css'
 import laptop from '../../img/laptop.jpg'
 import REACT from '../../img/logo192.png'
 import {Icon} from "../Intro/IntroSkills/Icon";
-import {MainTitle} from "./MainTitle";
-import {SectionTitle} from "./SectionTitle";
+import {MainTitle} from "../../ReusableComponents/mainTitle";
+import {BlueTitle} from "../../ReusableComponents/blueTitle";
 
 const AboutMe = () => {
     return (
@@ -19,7 +19,7 @@ const AboutMe = () => {
                         <img className={s.image} src={laptop} alt=""/>
                     </div>
                     <div className={s.infoSection}>
-                        <SectionTitle title={'ABOUT ME'}/>
+                        <BlueTitle title={'ABOUT ME'}/>
                         <MainTitle title={'An interested and enthusiastic Front-End Developer based in Warsaw, Poland'}
                                    displayIcon={1}
                                    iconColor={'#147EFB'}

@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Projecjts.module.css'
-import {MainTitle} from "../AboutMe/MainTitle";
-import {SectionTitle} from "../AboutMe/SectionTitle";
+import {MainTitle} from "../../ReusableComponents/mainTitle";
+import {BlueTitle} from "../../ReusableComponents/blueTitle";
 
 const Projects = () => {
     return (
@@ -10,8 +10,8 @@ const Projects = () => {
             <div className='contentContainer'>
                 <div className={s.projects}>
                     <div className={s.title}>
-                        <SectionTitle title={'PORTFOLIO'}/>
-                        <MainTitle title={'Working with Projects: Showcasing My Creative Development'}
+                        <BlueTitle title={'PORTFOLIO'}/>
+                        <MainTitle title={'Showcasing My Creative Development'}
                                    displayIcon={2}
                                    iconColor={'#D261FB'}
                         />

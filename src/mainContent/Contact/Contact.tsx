@@ -1,11 +1,11 @@
 import React from 'react';
 
-import {SectionTitle} from "../AboutMe/SectionTitle";
+import {BlueTitle} from "../../ReusableComponents/blueTitle";
 
 const Contact = () => {
     return (
         <div>
-            <SectionTitle title={'CONTACT'}/>
+            <BlueTitle title={'CONTACT'}/>
         </div>
     );
 };
