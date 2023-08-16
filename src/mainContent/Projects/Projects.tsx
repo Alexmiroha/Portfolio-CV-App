@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Projecjts.module.css'
 import {MainTitle} from "../../ReusableComponents/mainTitle";
 import {BlueTitle} from "../../ReusableComponents/blueTitle";
+import ProjectComponent from "./ProjectComponent";
 
 const Projects = () => {
     return (
@@ -16,7 +17,12 @@ const Projects = () => {
                                    iconColor={'#D261FB'}
                         />
                     </div>
-
+                    <div className={s.projectsContainer}>
+                        <ProjectComponent/>
+                        <ProjectComponent/>
+                        <ProjectComponent/>
+                        <ProjectComponent/>
+                    </div>
                 </div>
             </div>
         </section>

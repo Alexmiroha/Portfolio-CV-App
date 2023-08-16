@@ -5,3 +5,11 @@
 .title {
     text-align: left;
 }
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    margin: 5rem 0 5rem 0;
+}

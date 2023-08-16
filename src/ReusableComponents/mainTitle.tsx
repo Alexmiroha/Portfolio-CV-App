@@ -16,7 +16,7 @@ export const MainTitle: React.FC<MainTitlePropsType> = (props) => {
             </h3>
             <div className={s.icons}>
                 <FaMapMarked color={props.iconColor} display={props.displayIcon === 1 ? '' : 'none'}/>
-                <TbCodeCircle2 color={props.iconColor} display={props.displayIcon === 2 ? '' : 'none'}/>
+                <TbCodeCircle2 size={30} color={props.iconColor} display={props.displayIcon === 2 ? '' : 'none'}/>
             </div>
         </div>
     )
