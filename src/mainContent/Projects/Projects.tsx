@@ -21,15 +21,14 @@ const Projects = () => {
                         <ProjectComponent
                             image='https://stefantopalovicdev.vercel.app/static/media/car-rental-full.c58b37da333d73238fdd.webp'
                             title='Car Rental'
-                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit. Accusantium adipisci, amet consectetur dolorum eveniet natus nesciunt provident quidem.'
-                            stack={['React', 'CSS']}
+                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit.'                            stack={['React', 'CSS']}
                             code='https://github.com/Alexmiroha/luxestateReact'
                             demo='https://alexmiroha.github.io/luxestateReact/'
                         />
                         <ProjectComponent
                             image='https://stefantopalovicdev.vercel.app/static/media/coindom-full.c5fef9ca2f47e52897f8.png'
                             title='Coindom'
-                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit. Accusantium adipisci, amet consectetur dolorum eveniet natus nesciunt provident quidem.'
+                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit.'
                             stack={['React', 'CSS']}
                             code='https://github.com/Alexmiroha/luxestateReact'
                             demo='https://alexmiroha.github.io/luxestateReact/'
@@ -37,16 +36,14 @@ const Projects = () => {
                         <ProjectComponent
                             image='https://stefantopalovicdev.vercel.app/static/media/gymate-home.52d00d03c15713c601c4.webp'
                             title='Gymate'
-                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit. Accusantium adipisci, amet consectetur dolorum eveniet natus nesciunt provident quidem.'
-                            stack={['React', 'CSS']}
+                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit.'                            stack={['React', 'CSS']}
                             code='https://github.com/Alexmiroha/luxestateReact'
                             demo='https://alexmiroha.github.io/luxestateReact/'
                         />
                         <ProjectComponent
                             image='https://stefantopalovicdev.vercel.app/static/media/car-rental-full.c58b37da333d73238fdd.webp'
                             title='RAOUF ECOMMERCE'
-                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit. Accusantium adipisci, amet consectetur dolorum eveniet natus nesciunt provident quidem.'
-                            stack={['React', 'CSS']}
+                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit.'                            stack={['React', 'CSS']}
                             code='https://github.com/Alexmiroha/luxestateReact'
                             demo='https://alexmiroha.github.io/luxestateReact/'
                         />

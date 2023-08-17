@@ -1,5 +1,7 @@
 import React from 'react';
 import s from "./ProjectComponent.module.css";
+import {AiFillGithub} from "react-icons/ai";
+import {MdOutlineOpenInNew} from "react-icons/md";
 
 export type ProjectComponentPropsType = {
     image: string,
@@ -18,15 +20,15 @@ const ProjectComponent = (props: ProjectComponentPropsType) => {
             </div>
             <div className={s.discription}>
                 <h3 className={s.title}>{props.title}</h3>
-                <p>{props.paragraph}</p>
+                <p className={s.paragraph}>{props.paragraph}</p>
                 <div className={s.stack}>
                     {props.stack.map((e, index) => (
-                        <p key={index}>{e}</p>
+                        <p className={s.stack} key={index}>{e}</p>
                     ))}
                 </div>
                 <div className={s.links}>
-                    <a href={props.code}>Code</a>
-                    <a href={props.demo}>Demo</a>
+                    <a className={s.link} href={props.code}>Code<AiFillGithub/></a>
+                    <a className={s.link} href={props.demo}>Demo<MdOutlineOpenInNew/></a>
                 </div>
             </div>
         </div>
