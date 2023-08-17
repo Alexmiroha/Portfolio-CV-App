@@ -12,9 +12,9 @@ const Projects = () => {
                 <div className={s.projects}>
                     <div className={s.title}>
                         <BlueTitle title={'PORTFOLIO'}/>
-                        <MainTitle title={'Showcasing My Creative Development'}
-                                   displayIcon={2}
-                                   iconColor={'#D261FB'}
+                        <MainTitle title={'Showcasing My Creative Development🧩'}
+                                   displayIcon={0}
+                                   iconColor={''}
                         />
                     </div>
                     <div className={s.projectsContainer}>
