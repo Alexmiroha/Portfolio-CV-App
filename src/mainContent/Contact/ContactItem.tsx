@@ -18,13 +18,15 @@ const ContactItem = (props: ContactItemPropsType) => {
     return (
         <div className={s.contactItem}>
             <div className={s.icon}>
-                <FaMapMarked color={'#147EFB'} display={props.icon === 1 ? '' : 'none'}/>
-                <MdOutlineAlternateEmail color={'#147EFB'} display={props.icon === 2 ? '' : 'none'}/>
+                <FaMapMarked color={'#147EFB'} display={props.icon === 1 ? '' : 'none'} size={30}/>
+                <MdOutlineAlternateEmail color={'#147EFB'} display={props.icon === 2 ? '' : 'none'} size={30}/>
             </div>
-            <div className={s.name}>
-                {props.name}
+            <div className={s.description}>
+                <div className={s.context}>
+                    {props.name}
+                </div>
+                <a href={props.link} className={s.link}>{props.description}</a>
             </div>
-            <a href={props.link} className={s.description}>{props.description}</a>
         </div>
     );
 };
