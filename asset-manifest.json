@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio-CV-App/static/css/main.ecc3a06b.css",
-    "main.js": "/Portfolio-CV-App/static/js/main.06fbd525.js",
+    "main.css": "/Portfolio-CV-App/static/css/main.7b57d4da.css",
+    "main.js": "/Portfolio-CV-App/static/js/main.6744a170.js",
     "static/js/787.13a0712d.chunk.js": "/Portfolio-CV-App/static/js/787.13a0712d.chunk.js",
+    "static/media/luxestate.png": "/Portfolio-CV-App/static/media/luxestate.d40dc6070571b0884900.png",
+    "static/media/Funiro.png": "/Portfolio-CV-App/static/media/Funiro.3904293298899ef8de8c.png",
     "static/media/laptop.jpg": "/Portfolio-CV-App/static/media/laptop.f7b6f59969e9b63767a8.jpg",
     "static/media/photo.jpg": "/Portfolio-CV-App/static/media/photo.502cd24d94caa85c167d.jpg",
     "static/media/typescript.svg": "/Portfolio-CV-App/static/media/typescript.ba3c3706498764b53db071cad5b964aa.svg",
@@ -11,12 +13,12 @@
     "index.html": "/Portfolio-CV-App/index.html",
     "static/media/html.svg": "/Portfolio-CV-App/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
     "static/media/MUI.svg": "/Portfolio-CV-App/static/media/MUI.1e15d3bdbce178bcbe2c18e18f228459.svg",
-    "main.ecc3a06b.css.map": "/Portfolio-CV-App/static/css/main.ecc3a06b.css.map",
-    "main.06fbd525.js.map": "/Portfolio-CV-App/static/js/main.06fbd525.js.map",
+    "main.7b57d4da.css.map": "/Portfolio-CV-App/static/css/main.7b57d4da.css.map",
+    "main.6744a170.js.map": "/Portfolio-CV-App/static/js/main.6744a170.js.map",
     "787.13a0712d.chunk.js.map": "/Portfolio-CV-App/static/js/787.13a0712d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecc3a06b.css",
-    "static/js/main.06fbd525.js"
+    "static/css/main.7b57d4da.css",
+    "static/js/main.6744a170.js"
   ]
 }
