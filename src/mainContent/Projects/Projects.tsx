@@ -3,6 +3,8 @@ import s from './Projecjts.module.css'
 import {MainTitle} from "../../ReusableComponents/mainTitle";
 import {BlueTitle} from "../../ReusableComponents/blueTitle";
 import ProjectComponent from "./ProjectComponent";
+import Funiro from '../../img/Funiro.png'
+import luxestate from '../../img/luxestate.png'
 
 const Projects = () => {
     return (
@@ -19,31 +21,18 @@ const Projects = () => {
                     </div>
                     <div className={s.projectsContainer}>
                         <ProjectComponent
-                            image='https://stefantopalovicdev.vercel.app/static/media/car-rental-full.c58b37da333d73238fdd.webp'
-                            title='Car Rental'
-                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit.'                            stack={['React', 'CSS']}
-                            code='https://github.com/Alexmiroha/luxestateReact'
-                            demo='https://alexmiroha.github.io/luxestateReact/'
+                            image={Funiro}
+                            title='Furniture Shop'
+                            paragraph='A designer furniture and room design website is an online platform that allows users to purchase premium designer furniture for home and office. The website provides an interface for searching, comparing, and buying furniture.'
+                            stack={['Gulp', 'CSS', 'JS']}
+                            code='https://github.com/Alexmiroha/FuniroShop/tree/gh-pages'
+                            demo='https://alexmiroha.github.io/FuniroShop/'
                         />
                         <ProjectComponent
-                            image='https://stefantopalovicdev.vercel.app/static/media/coindom-full.c5fef9ca2f47e52897f8.png'
-                            title='Coindom'
-                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit.'
+                            image={luxestate}
+                            title='luxestate'
+                            paragraph='A website for searching apartments for sale and rent. On this site, users can find and purchase or rent apartments. The website features the ability to search for accommodations based on location and provides feedback options with agents.'
                             stack={['React', 'CSS']}
-                            code='https://github.com/Alexmiroha/luxestateReact'
-                            demo='https://alexmiroha.github.io/luxestateReact/'
-                        />
-                        <ProjectComponent
-                            image='https://stefantopalovicdev.vercel.app/static/media/gymate-home.52d00d03c15713c601c4.webp'
-                            title='Gymate'
-                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit.'                            stack={['React', 'CSS']}
-                            code='https://github.com/Alexmiroha/luxestateReact'
-                            demo='https://alexmiroha.github.io/luxestateReact/'
-                        />
-                        <ProjectComponent
-                            image='https://stefantopalovicdev.vercel.app/static/media/car-rental-full.c58b37da333d73238fdd.webp'
-                            title='RAOUF ECOMMERCE'
-                            paragraph='Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, accusantium corporis ipsam itaque minus quia reiciendis rerum tempore voluptate. Esse libero, nesciunt. Ipsam magnam repellendus velit.'                            stack={['React', 'CSS']}
                             code='https://github.com/Alexmiroha/luxestateReact'
                             demo='https://alexmiroha.github.io/luxestateReact/'
                         />

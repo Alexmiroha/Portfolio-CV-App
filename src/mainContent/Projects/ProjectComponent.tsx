@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import s from "./ProjectComponent.module.css";
 import {AiFillGithub} from "react-icons/ai";
 import {MdOutlineOpenInNew} from "react-icons/md";
@@ -13,11 +13,45 @@ export type ProjectComponentPropsType = {
 }
 
 const ProjectComponent = (props: ProjectComponentPropsType) => {
+
+    const imageRef = useRef<HTMLImageElement | null>(null);
+    const [imageHeight, setImageHeight] = useState<number | null>(null);
+    const getParentHeight = (element: HTMLElement | null): number => {
+        if (!element) {
+            return 0;
+        }
+        return element.offsetHeight;
+    };
+
+    useEffect(() => {
+        if (imageRef.current) {
+            setImageHeight(imageRef.current.clientHeight);
+        }
+    }, []);
+
+    const handleMouseEnter = () => {
+        if (imageRef.current && imageHeight !== null) {
+            const parentHeight = getParentHeight(imageRef.current.parentElement);
+            imageRef.current.style.transition = 'transform 8s ease';
+            imageRef.current.style.transform = `translateY(-${imageHeight - parentHeight}px)`;
+        }
+    };
+
+    const handleMouseLeave = () => {
+        if (imageRef.current) {
+            imageRef.current.style.transition = 'transform 8s ease';
+            imageRef.current.style.transform = 'translateY(0)';
+        }
+    };
+
     return (
         <div className={s.projectContainer}>
-            <div className={s.image}>
-                <img src={props.image} alt="ExampleImage"/>
-            </div>
+            <a href={props.demo}>
+                <div className={s.image} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                    <img ref={imageRef} src={props.image} alt="ExampleImage"/>
+                </div>
+            </a>
+
             <div className={s.discription}>
                 <h3 className={s.title}>{props.title}</h3>
                 <p className={s.paragraph}>{props.paragraph}</p>
