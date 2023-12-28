@@ -1,11 +1,17 @@
 .introMain {
     display: flex;
-    margin-top: 22vh;
-    width: 54vw;
+    width: calc(100% - 60px);
+    background: #fff;
+    padding: 30px;
+    border-radius: 1.7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
 }
+
 
 .text {
     width: 65%;
+    font-size: 20px;
     text-align: left;
     letter-spacing: 2px;
 }
@@ -18,10 +24,6 @@
 
 .description {
     line-height: 1.8rem;
-}
-
-.imageContainer {
-    width: 35%;
 }
 
 .icon {
@@ -49,18 +51,50 @@
     }
 }
 
+.imageContainer {
+    transition: 1s ease 0s;
+    padding: 0 0 10px 0;
+    border-radius: 20px;
+    background: #F6F6F6;
+    box-shadow: 0 0 10px rgba(210, 97, 251, 0.55);
+}
+
+@media (any-hover: hover) {
+    .imageContainer:hover {
+        box-shadow: 0 0 25px #D261FB;
+    }
+}
+
 .image {
-    width: 300px;
+    max-width: 250px;
     /*max-height: 300px;*/
-    border-radius: 80px;
-    border: 2px solid rgba(210, 97, 251, 0.3);
+    border-radius: 20px;
+    border: 2px solid #F6F6F6;
 }
 
-.link {
-    margin-right: 15px;
-    transition: all .27s;
-}
+/*для екранів 4k*/
+@media only screen and (min-width: 2561px) {
+    .image {
+        max-width: 420px;
+    }
 
-.link:hover {
-    color: #d261fb;
+    .text {
+        width: 50%;
+    }
+
+    .title {
+        font-weight: 800;
+        font-size: 70px;
+    }
+
+    .description {
+        line-height: 3.2rem;
+        font-size: 40px;
+    }
+
+    .icon {
+        width: 95px;
+        margin: 7px 28px;
+    }
 }
+/*для екранів 4k*/

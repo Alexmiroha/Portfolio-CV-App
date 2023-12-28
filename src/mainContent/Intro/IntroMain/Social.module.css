@@ -1,0 +1,13 @@
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+}
+
+.link {
+    transition: all .27s;
+}
+
+.link:hover {
+    color: #d261fb;
+}

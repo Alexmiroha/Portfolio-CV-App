@@ -1,3 +1,7 @@
 .introBlock {
-    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
 }
