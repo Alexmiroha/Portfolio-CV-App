@@ -11,7 +11,7 @@ import {Icon} from "./Icon";
 const IntroSkills = () => {
     return (
         <div className={s.introSkills}>
-            <p className={s.description}>Tech Stack &nbsp;&nbsp;|</p>
+            <p className={s.description}>Tech Stack</p>
             <ul className={s.icons}>
                 <Icon src={HTML}/>
                 <Icon src={CSS}/>

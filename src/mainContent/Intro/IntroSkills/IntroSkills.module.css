@@ -4,7 +4,37 @@
     align-items: center;
 }
 
+.introSkills p {
+
+}
+
+.introSkills p:before {
+    margin-right: 20px;
+    content: '';
+    border: 1px solid #000000;
+}
+
+.introSkills p:after {
+    margin-left: 20px;
+    content: '';
+    border: 1px solid #000000;
+}
+
 .icons {
     display: flex;
     margin-left: 60px;
+    flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 1449.98px) {
+    .icons {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .introSkills {
+        flex-direction: column;
+    }
+}
+

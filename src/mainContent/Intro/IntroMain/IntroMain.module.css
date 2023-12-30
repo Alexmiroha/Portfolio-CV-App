@@ -6,6 +6,7 @@
     border-radius: 1.7rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -42,6 +43,7 @@
         transform: rotate(360deg);
     }
 }
+
 @-webkit-keyframes rot {
     0% {
         transform: rotate(0deg);
@@ -97,4 +99,68 @@
         margin: 7px 28px;
     }
 }
+
 /*для екранів 4k*/
+
+@media only screen and (max-width: 1649.98px) {
+    .image {
+        max-width: 200px;
+    }
+
+    .title {
+        font-weight: 800;
+        font-size: 40px;
+    }
+
+    .description {
+        line-height: 1.5rem;
+        font-size: 17px;
+    }
+
+    .icon {
+        width: 40px;
+        margin: 13px 13px;
+    }
+}
+
+@media only screen and (max-width: 1449.98px) {
+    .text {
+        padding-right: 60px;
+    }
+
+    .text br {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .introMain {
+        flex-direction: column-reverse;
+    }
+
+    .text {
+        text-align: center;
+        padding: 20px 10px 0 10px;
+    }
+
+    .title {
+        font-size: 27px;
+        line-height: 1.2em;
+    }
+
+    .icon {
+        width: 30px;
+        margin: 6px 6px;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 1.3em;
+    }
+}
+
+/*md0: 1649.98 */
+/*md1: 1449.98;*/
+/*!*$md2: 991.98;*!*/
+/*!*$md3: 767.98;*!*/
+/*!*$md4: 479.98;*!*/
