@@ -6,3 +6,9 @@
     height: 100svh;
     padding: 0 10px;
 }
+
+@media only screen and (max-height: 1245px) {
+    .introBlock {
+        min-height: 1245px;
+    }
+}

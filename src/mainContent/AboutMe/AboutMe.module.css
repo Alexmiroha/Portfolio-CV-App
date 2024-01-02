@@ -43,29 +43,75 @@
 }
 
 @-webkit-keyframes moveX {
-    from { left: -65px; } to { left: 300px; }
+    from {
+        left: -65px;
+    }
+    to {
+        left: 300px;
+    }
 }
+
 @-moz-keyframes moveX {
-    from { left: -65px; } to { left: 300px; }
+    from {
+        left: -65px;
+    }
+    to {
+        left: 300px;
+    }
 }
+
 @-o-keyframes moveX {
-    from { left: -65px; } to { left: 300px; }
+    from {
+        left: -65px;
+    }
+    to {
+        left: 300px;
+    }
 }
+
 @keyframes moveX {
-    from { left: -65px; } to { left: 300px; }
+    from {
+        left: -65px;
+    }
+    to {
+        left: 300px;
+    }
 }
 
 @-webkit-keyframes moveY {
-    from { top: -14px; } to { top: 290px; }
+    from {
+        top: -14px;
+    }
+    to {
+        top: 290px;
+    }
 }
+
 @-moz-keyframes moveY {
-    from { top: -14px; } to { top: 290px; }
+    from {
+        top: -14px;
+    }
+    to {
+        top: 290px;
+    }
 }
+
 @-o-keyframes moveY {
-    from { top: -14px; } to { top: 290px; }
+    from {
+        top: -14px;
+    }
+    to {
+        top: 290px;
+    }
 }
+
 @keyframes moveY {
-    from { top: -14px; } to { top: 290px; }
+    from {
+        top: -14px;
+    }
+    to {
+        top: 290px;
+    }
 }
 
 /*298*/
@@ -84,6 +130,11 @@
 }
 
 @media only screen and (min-width: 2561px) {
+
+    .AboutMe {
+        min-height: 488px;
+    }
+
     .imageSection {
         transform: scale(1.7) translate(90px, 73px);
     }
@@ -91,6 +142,7 @@
     .infoSection {
         margin-left: 350px;
     }
+
     .description {
         font-size: 30px;
     }
@@ -98,7 +150,35 @@
 }
 
 @media only screen and (max-width: 1649.98px) {
-.description {
-    font-size: 15px;
+    .description {
+        font-size: 15px;
+    }
 }
+
+@media only screen and (max-width: 1199.98px) {
+    .AboutMe {
+        width: calc(100% - 80px);
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .imageSection {
+        display: none;
+
+    }
+    .infoSection {
+        background: #f6f6f6;
+        width: 100%;
+        padding: 30px;
+        border-radius: 1.7rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .description {
+        font-size: 13px;
+    }
 }
