@@ -4,3 +4,15 @@
     color: #147EFB;
     margin: 0;
 }
+
+@media only screen and (min-width: 2561px) {
+    .SectionTitle {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1649.98px) {
+    .SectionTitle {
+        font-size: 15px;
+    }
+}

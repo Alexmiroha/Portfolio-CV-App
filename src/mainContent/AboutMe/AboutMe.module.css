@@ -1,19 +1,22 @@
 .AboutMe {
     display: flex;
-    margin: 150px 0 150px 0;
+    padding: 150px 10px 150px 10px;
+    /*align-items: center;*/
+    width: 100%;
+}
+
+.imageSection {
 }
 
 .imageSection {
     width: 50%;
-}
-
-.imageSection {
     max-width: 410px;
+    min-width: 410px;
     max-height: 350px;
     overflow: hidden;
     border-radius: 1.7rem;
     margin-right: 85px;
-    margin-top: 1.33em;
+    margin-top: 0;
 }
 
 .image {
@@ -68,8 +71,9 @@
 /*298*/
 /*304*/
 .infoSection {
-    width: 50%;
+    width: auto;
     text-align: left;
+    padding: 0 10px;
 }
 
 .description {
@@ -77,4 +81,24 @@
     font-family: Mulish, sans-serif;
     line-height: 1.5;
     font-weight: 500;
+}
+
+@media only screen and (min-width: 2561px) {
+    .imageSection {
+        transform: scale(1.7) translate(90px, 73px);
+    }
+
+    .infoSection {
+        margin-left: 350px;
+    }
+    .description {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1649.98px) {
+.description {
+    font-size: 15px;
+}
 }

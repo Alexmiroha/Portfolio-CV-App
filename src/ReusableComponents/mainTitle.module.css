@@ -7,9 +7,21 @@
 .title {
     margin: 10px 15px 5px 0;
     font-weight: 800;
-
+    font-size: 25px;
 }
 
 .icons {
 
+}
+
+@media only screen and (min-width: 2561px) {
+    .title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1649.98px) {
+    .title {
+        font-size: 20px;
+    }
 }

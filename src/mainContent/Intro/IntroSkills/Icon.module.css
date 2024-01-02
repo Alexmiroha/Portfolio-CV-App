@@ -48,6 +48,18 @@
     height: 39px;
 }
 
+@media only screen and (min-width: 2561px) {
+
+    .flipCard {
+        margin-right: 65px;
+    }
+
+    .logo {
+        width: 82px;
+        height: 82px;
+    }
+}
+
 .flipCardBack {
     background-color: #fff;
     transform: rotateY(180deg);
