@@ -3,7 +3,6 @@
     width: 39px;
     height: 39px;
     perspective: 1000px;
-    margin-right: 25px;
     cursor: pointer;
     padding: 18px;
 }
@@ -49,10 +48,6 @@
 }
 
 @media only screen and (min-width: 2561px) {
-
-    .flipCard {
-        margin-right: 65px;
-    }
 
     .logo {
         width: 82px;
