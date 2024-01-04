@@ -46,13 +46,13 @@ const ProjectComponent = (props: ProjectComponentPropsType) => {
 
     return (
         <div className={s.projectContainer}>
-            <a href={props.demo}>
+            <a className={s.projectLinkWrapper} href={props.demo}>
                 <div className={s.image} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                     <img ref={imageRef} src={props.image} alt="ExampleImage"/>
                 </div>
             </a>
 
-            <div className={s.discription}>
+            <div className={s.description}>
                 <h3 className={s.title}>{props.title}</h3>
                 <p className={s.paragraph}>{props.paragraph}</p>
                 <div className={s.stack}>

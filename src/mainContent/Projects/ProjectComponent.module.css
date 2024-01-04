@@ -1,30 +1,32 @@
 .projectContainer {
     margin-left: 0;
     height: 360px;
-    max-width: 1016px;
     padding: 20px;
-    width: 100%;
+    width: 90%;
     background-color: #fff;
     border-radius: 1.7rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 4rem;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
 .projectContainer:nth-child(even) {
     flex-direction: row-reverse;
 }
 
+.projectLinkWrapper {
+    width: 40%;
+}
+
 .image {
-    max-width: 530px;
-    width: 530px;
+    width: 100%;
     height: 360px;
     overflow: hidden;
     border-radius: 1.2rem;
-    background-color: hsla(0,0%,46%,.2);
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    background-color: hsla(0, 0%, 46%, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
 .image img {
@@ -32,15 +34,14 @@
     height: auto;
 }
 
-.discription {
-    max-width: 400px;
-    width: 100%;
+.description {
+    width: 50%;
     height: 360px;
 }
 
-.discription h3 {
+.description h3 {
     color: #2d2e32;
-    font-size: 0.9rem;
+    font-size: 15px;
     font-weight: 800;
     margin-bottom: 1.2rem;
     position: relative;
@@ -51,7 +52,7 @@
     color: #767676;
     text-align: center;
     text-transform: none;
-    font-size: 1.2rem;
+    font-size: 18px;
     line-height: 1.6rem;
     letter-spacing: .02rem;
     word-spacing: .15rem;
@@ -68,23 +69,24 @@
 .stack p {
     color: #000;
     font-weight: 800;
-    font-size: .95rem;
+    font-size: 15px;
     text-align: center;
     text-transform: none;
     background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     padding: .7rem 1.3rem;
 
 }
 
 .links {
+    width: 100%;
     padding-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .links a {
-    font-size: 1.2rem;
+    font-size: 18px;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -93,4 +95,91 @@
 
 .links a:hover {
     color: #147EFB;
+}
+
+@media only screen and (min-width: 2561px) {
+
+    .projectContainer {
+        height: 610px;
+    }
+
+    .image {
+        height: 610px;
+    }
+
+    .description h3 {
+        font-size: 25px;
+    }
+
+    .paragraph {
+        font-size: 25px;
+    }
+
+    .stack p {
+        font-size: 25px;
+    }
+
+    .links a {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 1649.98px) {
+
+    .description {
+        width: 53%;
+    }
+    .description h3 {
+        font-size: 15px;
+    }
+
+    .paragraph {
+        font-size: 15px;
+    }
+
+    .stack p {
+        font-size: 14px;
+    }
+
+    .links a {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .projectContainer {
+        flex-direction: column;
+        height: auto;
+        gap: 0;
+    }
+    .projectContainer:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .projectLinkWrapper {
+        width: 90%;
+        padding: 25px 10px 0 10px;
+    }
+
+    .description {
+        width: 90%;
+        height: auto;
+        padding: 20px 10px 30px 10px;
+    }
+    .description h3 {
+        font-size: 13px;
+    }
+
+    .paragraph {
+        font-size: 13px;
+    }
+
+    .stack p {
+        font-size: 12px;
+    }
+
+    .links a {
+        font-size: 15px;
+    }
+
 }
