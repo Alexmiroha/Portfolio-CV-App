@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio-CV-App/static/css/main.08a78afb.css",
-    "main.js": "/Portfolio-CV-App/static/js/main.409bb477.js",
+    "main.css": "/Portfolio-CV-App/static/css/main.4742ba33.css",
+    "main.js": "/Portfolio-CV-App/static/js/main.f421f13e.js",
     "static/js/787.13a0712d.chunk.js": "/Portfolio-CV-App/static/js/787.13a0712d.chunk.js",
-    "static/media/luxestate.png": "/Portfolio-CV-App/static/media/luxestate.d40dc6070571b0884900.png",
-    "static/media/Funiro.png": "/Portfolio-CV-App/static/media/Funiro.3904293298899ef8de8c.png",
+    "static/media/luxestate-min.png": "/Portfolio-CV-App/static/media/luxestate-min.df87d0d1e5641d66009c.png",
     "static/media/laptop.jpg": "/Portfolio-CV-App/static/media/laptop.f7b6f59969e9b63767a8.jpg",
+    "static/media/Funiro-min.png": "/Portfolio-CV-App/static/media/Funiro-min.45e27875b5e0e424deff.png",
     "static/media/photo.jpg": "/Portfolio-CV-App/static/media/photo.502cd24d94caa85c167d.jpg",
     "static/media/typescript.svg": "/Portfolio-CV-App/static/media/typescript.ba3c3706498764b53db071cad5b964aa.svg",
     "static/media/js.svg": "/Portfolio-CV-App/static/media/js.de4c2594613e34b15666206bbede7327.svg",
@@ -13,12 +13,12 @@
     "index.html": "/Portfolio-CV-App/index.html",
     "static/media/html.svg": "/Portfolio-CV-App/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
     "static/media/MUI.svg": "/Portfolio-CV-App/static/media/MUI.1e15d3bdbce178bcbe2c18e18f228459.svg",
-    "main.08a78afb.css.map": "/Portfolio-CV-App/static/css/main.08a78afb.css.map",
-    "main.409bb477.js.map": "/Portfolio-CV-App/static/js/main.409bb477.js.map",
+    "main.4742ba33.css.map": "/Portfolio-CV-App/static/css/main.4742ba33.css.map",
+    "main.f421f13e.js.map": "/Portfolio-CV-App/static/js/main.f421f13e.js.map",
     "787.13a0712d.chunk.js.map": "/Portfolio-CV-App/static/js/787.13a0712d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08a78afb.css",
-    "static/js/main.409bb477.js"
+    "static/css/main.4742ba33.css",
+    "static/js/main.f421f13e.js"
   ]
 }
