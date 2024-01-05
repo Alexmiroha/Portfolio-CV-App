@@ -28,7 +28,7 @@
 
 .icon {
     position: relative;
-    z-index: 100;
+    z-index: 50;
     transform: scale(0.7);
     top: 5px;
     left: -49px;
