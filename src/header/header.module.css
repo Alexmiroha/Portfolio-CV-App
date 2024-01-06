@@ -1,12 +1,10 @@
 .header {
     position: fixed;
     width: 100%;
-    height: auto;
     background-color: #fff;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
     z-index: 100;
-    max-height: 67px;
 }
 
 .headerContainer {
@@ -42,6 +40,22 @@
 .headerButtons a:hover {
     color: #d261fb;
     cursor: pointer;
+}
+
+.downButton {
+    display: none;
+    color: #f6f6f6;
+    font-size: 25px;
+    background-color: rgb(210, 97, 251);
+    border: none;
+    border-radius: 50%;
+    padding: 10px 12px 8px 12px;
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.4);
+    transition: all .5s ease;
 }
 
 @media only screen and (min-width: 2561px) {
@@ -88,7 +102,42 @@
 }
 
 @media only screen and (max-width: 550px) {
- .headerButtons {
-     display: none;
- }
+
+    .header {
+        position: absolute;
+    }
+
+    .downButton {
+        display: unset;
+    }
+
+    .downButtonActive {
+        transform: translate(-50%, -50%) scale(0.4) rotate(180deg);
+        transition: all .5s ease;
+    }
+
+
+
+    .headerContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .headerButtons {
+        display: flex;
+        flex-direction: column;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: all 1s ease;
+    }
+    .headerButtons a {
+        margin: 0;
+    }
+
+    .headerButtonsActive {
+        max-height: 200px;
+        opacity: 1;
+    }
+
 }
