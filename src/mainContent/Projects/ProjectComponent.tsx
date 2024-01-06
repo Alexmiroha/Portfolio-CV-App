@@ -24,9 +24,23 @@ const ProjectComponent = (props: ProjectComponentPropsType) => {
     };
 
     useEffect(() => {
+        const handleImageLoad = () => {
+            if (imageRef.current) {
+                setImageHeight(imageRef.current.clientHeight);
+            }
+        };
+
         if (imageRef.current) {
-            setImageHeight(imageRef.current.clientHeight);
+            // Визначення висоти зображення після завантаження
+            imageRef.current.addEventListener('load', handleImageLoad);
         }
+
+        return () => {
+            // Прибирання обробника подій при видаленні компонента
+            if (imageRef.current) {
+                imageRef.current.removeEventListener('load', handleImageLoad);
+            }
+        };
     }, []);
 
     const handleMouseEnter = () => {
