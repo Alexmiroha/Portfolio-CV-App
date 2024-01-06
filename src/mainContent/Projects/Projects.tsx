@@ -3,8 +3,8 @@ import s from './Projecjts.module.css'
 import {MainTitle} from "../../ReusableComponents/mainTitle";
 import {BlueTitle} from "../../ReusableComponents/blueTitle";
 import ProjectComponent from "./ProjectComponent";
-import Funiro from '../../img/Funiro-min.png'
-import luxestate from '../../img/luxestate-min.png'
+import Funiro from '../../img/Funiro-min.webp'
+import luxestate from '../../img/luxestate-min.webp'
 
 const Projects = () => {
     return (

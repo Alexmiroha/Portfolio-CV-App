@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './AboutMe.module.css'
-import laptop from '../../img/laptop.jpg'
+import laptop from '../../img/laptop.webp'
 import REACT from '../../img/logo192.png'
 import {Icon} from "../Intro/IntroSkills/Icon";
 import {MainTitle} from "../../ReusableComponents/mainTitle";

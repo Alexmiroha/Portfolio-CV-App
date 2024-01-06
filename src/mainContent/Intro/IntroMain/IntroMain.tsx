@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './IntroMain.module.css'
 import {BiMap} from "react-icons/bi";
-import avatar from '../../../img/photo.jpg'
+import avatar from '../../../img/photo.webp'
 import icon from '../../../img/logo192.png'
 import Social from "./Social";
 
