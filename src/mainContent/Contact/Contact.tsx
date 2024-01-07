@@ -7,18 +7,22 @@ import ContactItem from "./ContactItem";
 
 const Contact = () => {
     return (
-        <div className='contentContainer'>
-            <div className={s.contact}>
-                <div className={s.title}>
-                    <BlueTitle title={'CONTACT'}/>
-                    <MainTitle title={'Dont be shy! Hit me up! 👇'} displayIcon={0} iconColor={''}/>
-                </div>
-                <div className={s.contactsItems}>
-                    <ContactItem icon={1} name={'Location'} description={'Warsaw, Poland'} link={'https://goo.gl/maps/GvkfXcFuSzAmb7966'}/>
-                    <ContactItem icon={2} name={'E-Mail'} description={'Alexmiroha1@gmail.com'} link={'mailto: Alexmiroha1@gmail.com'}/>
+        <section className={s.contactSection} id='Contact'>
+            <div className='contentContainer'>
+                <div className={s.contact}>
+                    <div className={s.title}>
+                        <BlueTitle title={'CONTACT'}/>
+                        <MainTitle title={'Dont be shy! Hit me up! 👇'} displayIcon={0} iconColor={''}/>
+                    </div>
+                    <div className={s.contactsItems}>
+                        <ContactItem icon={1} name={'Location'} description={'Warsaw, Poland'}
+                                     link={'https://goo.gl/maps/GvkfXcFuSzAmb7966'}/>
+                        <ContactItem icon={2} name={'E-Mail'} description={'Alexmiroha1@gmail.com'}
+                                     link={'mailto: Alexmiroha1@gmail.com'}/>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

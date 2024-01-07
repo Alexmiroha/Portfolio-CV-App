@@ -9,7 +9,7 @@ import luxestate from '../../img/luxestate-min.webp'
 const Projects = () => {
     return (
 
-        <section className='projects'>
+        <section className='projects' id='Projects'>
             <div className='contentContainer'>
                 <div className={s.projects}>
                     <div className={s.title}>

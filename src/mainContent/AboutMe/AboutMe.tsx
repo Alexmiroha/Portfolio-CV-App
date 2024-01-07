@@ -9,7 +9,7 @@ import {BlueTitle} from "../../ReusableComponents/blueTitle";
 const AboutMe = () => {
     return (
 
-        <section className='aboutMe'>
+        <section className='aboutMe' id='About'>
             <div className='contentContainer'>
                 <div className={s.AboutMe}>
                     <div className={s.imageSection}>

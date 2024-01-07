@@ -5,7 +5,7 @@ import IntroSkills from "./IntroSkills/IntroSkills";
 
 const Intro = () => {
     return (
-        <section className='intro'>
+        <section className='intro' id='Home'>
             <div className='contentContainer'>
                 <div className={s.introBlock}>
                     <IntroMain/>
