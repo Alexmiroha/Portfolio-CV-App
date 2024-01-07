@@ -3,6 +3,7 @@
     padding: 150px 10px 150px 10px;
     /*align-items: center;*/
     width: 100%;
+    min-width: 185px;
 }
 
 .imageSection {
@@ -124,7 +125,6 @@
 
 .description {
     font-size: 17px;
-    font-family: Mulish, sans-serif;
     line-height: 1.5;
     font-weight: 500;
 }
@@ -179,6 +179,6 @@
 
 @media only screen and (max-width: 767.98px) {
     .description {
-        font-size: 13px;
+        font-size: 10px;
     }
 }

@@ -1,12 +1,14 @@
 .introMain {
     display: flex;
     width: calc(100% - 60px);
+    min-width: 187px;
     background: #fff;
     padding: 30px;
     border-radius: 1.7rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -14,17 +16,18 @@
     width: 65%;
     font-size: 20px;
     text-align: left;
-    letter-spacing: 2px;
 }
 
 .title {
     font-weight: 800;
     font-size: 50px;
     margin-top: 0;
+    letter-spacing: .05rem;
 }
 
 .description {
     line-height: 1.8rem;
+    letter-spacing: .02rem;
 }
 
 .icon {
@@ -145,18 +148,18 @@
     }
 
     .title {
-        font-size: 27px;
+        font-size: 20px;
         line-height: 1.2em;
     }
 
     .icon {
-        width: 30px;
-        margin: 6px 6px;
+        width: 20px;
+        margin: 4px 4px;
     }
 
     .description {
-        font-size: 14px;
-        line-height: 1.3em;
+        font-size: 10px;
+        line-height: 1.7em;
     }
 }
 
