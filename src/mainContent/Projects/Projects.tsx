@@ -15,8 +15,6 @@ const Projects = () => {
                     <div className={s.title}>
                         <BlueTitle title={'PORTFOLIO'}/>
                         <MainTitle title={'Showcasing My Creative Development🧩'}
-                                   displayIcon={0}
-                                   iconColor={''}
                         />
                     </div>
                     <div className={s.projectsContainer}>

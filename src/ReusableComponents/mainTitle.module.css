@@ -4,30 +4,47 @@
     flex-wrap: wrap;
 }
 
-.title {
+.titleWrapper {
     margin: 10px 15px 5px 0;
     font-weight: 800;
     font-size: 25px;
+    flex-direction: column;
 }
+
+
 
 .icons {
 
 }
 
 @media only screen and (min-width: 2561px) {
-    .title {
+    .titleWrapper {
         font-size: 30px;
     }
 }
 
 @media only screen and (max-width: 1649.98px) {
-    .title {
+    .titleWrapper {
         font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 767.98px) {
-    .title {
+    .titleWrapper {
         font-size: 15px;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainTitleComponent {
+        justify-content: center;
+    }
+    .icons {
+    padding: 5px;
     }
 }

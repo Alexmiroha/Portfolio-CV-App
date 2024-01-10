@@ -14,15 +14,29 @@
 
 .context {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 19px;
+
 }
 
 .link {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 16px;
     transition: all .27s;
 }
 
 .link:hover {
     color: #147EFB;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .contactItem {
+        width: 250px;
+    }
+
+    .context {
+        font-size: 15px;
+    }
+    .link {
+        font-size: 13px;
+    }
 }

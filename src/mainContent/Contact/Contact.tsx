@@ -12,7 +12,7 @@ const Contact = () => {
                 <div className={s.contact}>
                     <div className={s.title}>
                         <BlueTitle title={'CONTACT'}/>
-                        <MainTitle title={'Dont be shy! Hit me up! 👇'} displayIcon={0} iconColor={''}/>
+                        <MainTitle title={'Dont be shy! Hit me up! 👇'}/>
                     </div>
                     <div className={s.contactsItems}>
                         <ContactItem icon={1} name={'Location'} description={'Warsaw, Poland'}

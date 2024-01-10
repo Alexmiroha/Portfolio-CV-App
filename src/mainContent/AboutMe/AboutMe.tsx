@@ -20,9 +20,7 @@ const AboutMe = () => {
                     </div>
                     <div className={s.infoSection}>
                         <BlueTitle title={'ABOUT ME'}/>
-                        <MainTitle title={'An interested and enthusiastic Front-End Developer based in Warsaw, Poland'}
-                                   displayIcon={1}
-                                   iconColor={'#147EFB'}
+                        <MainTitle title={'An interested and enthusiastic Front-End Developer based in Warsaw, Poland🗺️'}
                         />
                         <p className={s.description}>
                             As a Junior Front-End Developer,
