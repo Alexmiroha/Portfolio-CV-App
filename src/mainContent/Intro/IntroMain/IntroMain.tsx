@@ -3,7 +3,7 @@ import s from './IntroMain.module.css'
 import {BiMap} from "react-icons/bi";
 import avatar from '../../../img/photo.webp'
 import icon from '../../../img/logo192.png'
-import Social from "./Social";
+import Social from "../../../ReusableComponents/Social";
 
 const IntroMain = () => {
     return (
@@ -19,7 +19,7 @@ const IntroMain = () => {
                 </p>
             </div>
             <div className={s.imageContainer}>
-                <img className={s.image} src={avatar} alt="image"/>
+                <img className={s.image} src={avatar} alt="avatar"/>
                 <Social display={["instagram", "github", "linkedin"]} iconHoverColor={'#d261fb'}/>
 
             </div>

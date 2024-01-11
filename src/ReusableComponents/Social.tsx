@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import s from "./Social.module.css";
 import {BsGithub, BsLinkedin} from "react-icons/bs";
 import {GrInstagram} from "react-icons/gr";
