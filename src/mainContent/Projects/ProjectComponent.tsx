@@ -14,6 +14,8 @@ export type ProjectComponentPropsType = {
 
 const ProjectComponent = (props: ProjectComponentPropsType) => {
 
+    const imageUrlWithTimestamp = `${props.image}?t=${new Date().getTime()}`;
+
     const imageRef = useRef<HTMLImageElement | null>(null);
     const [imageHeight, setImageHeight] = useState<number | null>(null);
     const getParentHeight = (element: HTMLElement | null): number => {
@@ -63,7 +65,7 @@ const ProjectComponent = (props: ProjectComponentPropsType) => {
         <div className={s.projectContainer}>
             <a className={s.projectLinkWrapper} href={props.demo}>
                 <div className={s.image} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <img ref={imageRef} src={props.image} alt="ExampleImage"/>
+                    <img ref={imageRef} src={imageUrlWithTimestamp} alt="ExampleImage"/>
                 </div>
             </a>
 
