@@ -10,10 +10,6 @@ export type ContactItemPropsType = {
     link: string | undefined
 }
 
-function FaMapLocationDot() {
-    return null;
-}
-
 const ContactItem = (props: ContactItemPropsType) => {
     return (
         <div className={s.contactItem}>

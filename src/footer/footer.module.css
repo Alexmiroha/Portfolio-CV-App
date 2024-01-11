@@ -1,4 +1,16 @@
 .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    background-color: #d261fb;
+    background-color: #2D2E32;
+    color: #fff;
+    padding: 30px 5px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .footer {
+        font-size: 17px;
+    }
 }

@@ -10,7 +10,7 @@ const IntroMain = () => {
         <div className={s.introMain}>
             <div className={s.text}>
                 <h1 className={s.title}>Front-End React <br/>Developer
-                    <img className={s.icon} src={icon} alt=""/>
+                    <img className={s.icon} src={icon} alt="icon React"/>
                 </h1>
                 <p className={s.description}>
                     Hi, I'm Oleksii Miroshnichenko. <br/>A passionate Front-end React <br/>Developer
@@ -20,7 +20,8 @@ const IntroMain = () => {
             </div>
             <div className={s.imageContainer}>
                 <img className={s.image} src={avatar} alt="image"/>
-                <Social/>
+                <Social display={["instagram", "github", "linkedin"]} iconHoverColor={'#d261fb'}/>
+
             </div>
         </div>
     );
