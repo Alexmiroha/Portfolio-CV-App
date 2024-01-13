@@ -12,3 +12,9 @@
         min-height: 1245px;
     }
 }
+
+@media only screen and (max-height: 800px) {
+    .introBlock {
+        min-height: 1010px;
+    }
+}

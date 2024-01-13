@@ -1,0 +1,98 @@
+.scroll_button {
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    top: calc(100% - 180px);
+    left: 85%;
+    background: rgba(20, 126, 251, 1);
+    padding: 24px 78px 10px 53px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 43, 255, 0.35);
+    z-index: 90;
+    transform: rotate(270deg);
+    opacity: .3;
+    transition: opacity .5s ease;
+}
+
+@media (any-hover: hover) {
+    .scroll_button:hover {
+        opacity: 1;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .scroll_button {
+        opacity: 1;
+    }
+}
+
+.scroll_button p {
+    transform: rotate(180deg);
+    margin: 0;
+    width: 1px;
+    height: 1px;
+}
+
+.scroll_button .arrow_1 {
+    position: relative;
+    transform: rotate(-90deg);
+    padding: 0;
+    max-width: 1px;
+    left: 36px;
+    bottom: 10px;
+}
+
+.arrow_1 span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: arrow_1 2s infinite;
+}
+
+.arrow_1 span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow_1 span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes arrow_1 {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-15px, -15px);
+    }
+
+    50% {
+        opacity: 1;
+
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(15px, 15px);
+    }
+}
+
+/*____________________________________________________________________*/
+
+@media only screen and (max-width: 1449.98px) {
+    .scroll_button {
+        left: calc(100% - 100px);
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .scroll_button{
+        left: calc(100% - 85px);
+        transform: scale(0.5) rotate(270deg);
+    }
+}

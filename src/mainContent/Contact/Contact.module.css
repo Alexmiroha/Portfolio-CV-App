@@ -17,6 +17,7 @@
     .contactsItems {
         flex-direction: column;
         gap: 20px;
+        margin-top: 2rem;
         justify-content: center;
         align-items: center;
     }
