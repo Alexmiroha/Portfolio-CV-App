@@ -1,7 +1,13 @@
 import React, {useState} from 'react';
 import s from './header.module.css'
 
-const Header = () => {
+
+type HeaderPropsType = {
+    toggleDarkMode: () => void,
+    isDarkMode: boolean
+}
+
+const Header = (props:HeaderPropsType) => {
 
     const [headerActive, setActive] = useState(false);
 
@@ -21,7 +27,7 @@ const Header = () => {
 
 
     return (
-        <div className={`${s.header} ${headerActive ? s.headerActive : ''}`}>
+        <div className={`${s.header} ${headerActive ? s.headerActive : ''} ${props.isDarkMode ? '_dark-mode' : ''}`}>
             <nav className={s.headerContainer}>
                 <div className={s.logo}>
                     Alexmiroha.dev
@@ -41,6 +47,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+            <button onClick={props.toggleDarkMode}>Toggle Dark Mode</button>
             <button onClick={(event) => handlerButtonClick(event,null)}
                     className={`${s.downButton} ${headerActive ? s.downButtonActive : ''}`}>&#9660;</button>
         </div>
