@@ -28,7 +28,7 @@ const IconSocial = (props: IconSocialPropsType) => {
     const iconStyle = {
         color: isHovered ? props.iconHoverColor ? props.iconHoverColor : defaultHoverColor : props.iconColor || defaultColor,
         // Якщо наведено, то хаверколор з пропсів або дефолтний, якщо ні, то колір з пропсів або дефолтний
-        transition: 'color .27s ease'
+        transition: 'color 1s ease'
     };
 
 

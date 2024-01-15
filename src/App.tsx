@@ -15,9 +15,9 @@ function App() {
     return (
         <div className={`App ${isDarkMode ? 'dark-mode' : ''}`}>
             <Header toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
-            <ScrollButton/>
-            <MainContent/>
-            <Footer/>
+            <ScrollButton isDarkMode={isDarkMode}/>
+            <MainContent isDarkMode={isDarkMode}/>
+            <Footer isDarkMode={isDarkMode}/>
         </div>
     );
 }

@@ -8,6 +8,8 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: center;
     align-items: center;
+    color: #1F1F1F;
+    transition: all 1s ease;
 
 }
 
@@ -38,6 +40,7 @@
     -webkit-animation: 3s linear 0s normal none infinite running rot;
 }
 
+
 @keyframes rot {
     0% {
         transform: rotate(0deg);
@@ -60,7 +63,7 @@
     transition: 1s ease 0s;
     padding: 0 0 10px 0;
     border-radius: 20px;
-    background: #F6F6F6;
+    background-color: #F6F6F6;
     box-shadow: 0 0 10px rgba(210, 97, 251, 0.55);
 }
 
@@ -139,6 +142,7 @@
 @media only screen and (max-width: 767.98px) {
     .introMain {
         flex-direction: column-reverse;
+        min-width: 230px;
     }
 
     .text {
@@ -163,6 +167,18 @@
     }
 }
 
+/*========================================================================================================*/
+/*dark-mode*/
+
+
+
+._darkModeBC {
+    background-color: #000;
+    color: #fff;
+    transition: all 1s ease;
+    border: 1px solid #ffffff;
+    box-shadow: none;
+}
 /*md0: 1649.98 */
 /*md1: 1449.98;*/
 /*!*$md2: 991.98;*!*/

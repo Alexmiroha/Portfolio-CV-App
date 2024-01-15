@@ -12,7 +12,6 @@ type SocialPropsType = {
 
 const Social: React.FC<SocialPropsType> = (props) => {
 
-
     return (
         <div className={s.social}>
             {props.display.includes('linkedin') && (

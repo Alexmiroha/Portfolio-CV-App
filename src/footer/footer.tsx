@@ -2,7 +2,11 @@ import React from 'react';
 import s from './footer.module.css'
 import Social from "../ReusableComponents/Social";
 
-const Footer = () => {
+type FooterPropsType = {
+    isDarkMode: boolean
+}
+
+const Footer = (props: FooterPropsType) => {
     return (
         <section className={s.footer}>
             <div className={s.author}>© 2024 by Alexmiroha</div>

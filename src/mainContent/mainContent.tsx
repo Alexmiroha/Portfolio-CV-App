@@ -5,10 +5,14 @@ import AboutMe from "./AboutMe/AboutMe";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 
-const MainContent = () => {
+type MainContentPropsType = {
+    isDarkMode: boolean
+}
+
+const MainContent = (props: MainContentPropsType) => {
     return (
         <div className={s.mainContent}>
-            <Intro/>
+            <Intro isDarkMode={props.isDarkMode}/>
             <AboutMe/>
             <Projects/>
             <Contact/>

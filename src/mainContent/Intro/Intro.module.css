@@ -7,6 +7,18 @@
     padding: 0 10px;
 }
 
+/*===========================================================================================*/
+/*dark-mode*/
+
+._darkModeBC {
+    background-color: #02081a;
+    color: #fff;
+    transition: all 1s ease;
+}
+
+
+
+
 @media only screen and (max-height: 1245px) {
     .introBlock {
         min-height: 1245px;
@@ -15,6 +27,6 @@
 
 @media only screen and (max-height: 800px) {
     .introBlock {
-        min-height: 1010px;
+        min-height: 1040px;
     }
 }

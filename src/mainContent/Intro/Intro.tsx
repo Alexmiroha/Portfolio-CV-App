@@ -3,12 +3,16 @@ import s from './Intro.module.css'
 import IntroMain from "./IntroMain/IntroMain";
 import IntroSkills from "./IntroSkills/IntroSkills";
 
-const Intro = () => {
+type IntroPropsType = {
+    isDarkMode: boolean
+}
+
+const Intro = (props: IntroPropsType) => {
     return (
         <section className='intro' id='Home'>
             <div className='contentContainer'>
                 <div className={s.introBlock}>
-                    <IntroMain/>
+                    <IntroMain isDarkMode={props.isDarkMode}/>
                     <IntroSkills/>
                 </div>
             </div>

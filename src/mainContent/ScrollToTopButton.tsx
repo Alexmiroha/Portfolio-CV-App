@@ -1,7 +1,12 @@
 import React from 'react'
 import s from './ScrollToTopButton.module.css'
 
-export const ScrollButton = () => {
+
+type ScrollButtonPropsType = {
+    isDarkMode: boolean
+}
+
+export const ScrollButton = (props: ScrollButtonPropsType) => {
 
     const handlerButtonClick = (targetId: string | null) => {
 

@@ -1,54 +1,59 @@
 
 .App {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-family: 'Arial',sans-serif;
-  font-size: 1.3rem;
-  color: #1f1f1f;
-  background-color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3rem;
+    color: #1f1f1f;
+    background-color: #fff;
 }
 
 .contentContainer {
-  width: 55vw;
+    width: 55vw;
 }
 
 @media only screen and (max-width: 1449.98px) {
-  .contentContainer {
-    width: 87vw;
-  }
+    .contentContainer {
+        width: 87vw;
+    }
 }
 
 @media only screen and (max-width: 830px) {
-  .contentContainer {
-    overflow-x: auto;
-  }
+    .contentContainer {
+        overflow-x: auto;
+    }
 }
 
 section {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 ul {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 a {
-  text-decoration: none;
-  color: #1F1F1F;
+    text-decoration: none;
+    color: #1F1F1F;
 }
 
 .intro, .projects {
-  background-color: #f6f6f6;
-  transition: all 1s ease;
+    background-color: #f6f6f6;
+    transition: all 1s ease;
+}
+
+
+.dark-mode .intro, .projects {
+    background: #000 radial-gradient(45.2% 36.8% at 50% 41.099999999999994%, rgba(79, 0, 250, .25) 0%, rgba(0, 2, 18, 0) 100%);
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
