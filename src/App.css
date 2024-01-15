@@ -52,13 +52,3 @@ a {
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/*dark mode*/
-
-.dark-mode .intro, .projects {
-  background-color: #1f1f1f;
-}
-
-._dark-mode {
-  background-color: #1f1f1f !important;
-  transition: all 1s ease;
-}

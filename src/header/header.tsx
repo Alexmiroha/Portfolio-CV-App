@@ -27,23 +27,23 @@ const Header = (props:HeaderPropsType) => {
 
 
     return (
-        <div className={`${s.header} ${headerActive ? s.headerActive : ''} ${props.isDarkMode ? '_dark-mode' : ''}`}>
+        <div className={`${s.header} ${headerActive ? s.headerActive : ''} ${props.isDarkMode ? `${s._darkModeBC} ${s._darkModeBorder}` : ''}`}>
             <nav className={s.headerContainer}>
-                <div className={s.logo}>
+                <div className={`${s.logo} ${props.isDarkMode ? s._darkModeBC : ''}`}>
                     Alexmiroha.dev
                 </div>
                 <ul className={`${s.headerButtons} ${headerActive ? s.headerButtonsActive : ''}`}>
                     <li className={s.button}>
-                        <a onClick={(event) => handlerButtonClick(event,'Home')} href="#">Home</a>
+                        <a className={`${s.link} ${props.isDarkMode ? s._darkModeBC : ''}`} onClick={(event) => handlerButtonClick(event,'Home')} href="#">Home</a>
                     </li>
                     <li className={s.button}>
-                        <a onClick={(event) => handlerButtonClick(event,'About')} href="#About">About</a>
+                        <a className={`${s.link} ${props.isDarkMode ? s._darkModeBC : ''}`} onClick={(event) => handlerButtonClick(event,'About')} href="#About">About</a>
                     </li>
                     <li className={s.button}>
-                        <a onClick={(event) => handlerButtonClick(event,'Projects')} href="#Projects">Projects</a>
+                        <a className={`${s.link} ${props.isDarkMode ? s._darkModeBC : ''}`} onClick={(event) => handlerButtonClick(event,'Projects')} href="#Projects">Projects</a>
                     </li>
                     <li className={s.button}>
-                        <a onClick={(event) => handlerButtonClick(event,'Contact')} href="#Contact">Contact</a>
+                        <a className={`${s.link} ${props.isDarkMode ? s._darkModeBC : ''}`} onClick={(event) => handlerButtonClick(event,'Contact')} href="#Contact">Contact</a>
                     </li>
                 </ul>
             </nav>
