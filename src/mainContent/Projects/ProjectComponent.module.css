@@ -103,7 +103,7 @@
 /*======================dark-mode====================================*/
 .projectContainer.darkMode {
     background-color: black;
-    box-shadow: 0 0 30px rgba(210, 97, 251, 0.25);
+    box-shadow: 0 0 20px rgba(210, 97, 251, 0.3);
     transition: background-color 1s ease;
 }
 
@@ -115,7 +115,7 @@
 .projectContainer.darkMode .stack p {
     color: white;
     background-color: black;
-    box-shadow: 0 0 50px rgba(210, 97, 251, 0.4);
+    box-shadow: 0 0 20px rgba(210, 97, 251, 0.3);
     transition: all 1s ease;
 }
 
