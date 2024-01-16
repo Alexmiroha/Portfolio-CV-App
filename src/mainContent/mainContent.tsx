@@ -15,7 +15,7 @@ const MainContent = (props: MainContentPropsType) => {
             <Intro isDarkMode={props.isDarkMode}/>
             <AboutMe isDarkMode={props.isDarkMode}/>
             <Projects isDarkMode={props.isDarkMode}/>
-            <Contact/>
+            <Contact isDarkMode={props.isDarkMode}/>
         </div>
     );
 };

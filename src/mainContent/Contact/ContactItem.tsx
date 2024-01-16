@@ -7,12 +7,13 @@ export type ContactItemPropsType = {
     icon: number,
     name: string,
     description: string,
-    link: string | undefined
+    link: string | undefined,
+    isDarkMode: boolean
 }
 
 const ContactItem = (props: ContactItemPropsType) => {
     return (
-        <div className={s.contactItem}>
+        <div className={`${s.contactItem} ${props.isDarkMode? s.darkMode : ''}`}>
             <div className={s.icon}>
                 <FaMapMarked color={'#147EFB'} display={props.icon === 1 ? '' : 'none'} size={30}/>
                 <MdOutlineAlternateEmail color={'#147EFB'} display={props.icon === 2 ? '' : 'none'} size={30}/>

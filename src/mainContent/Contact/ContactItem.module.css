@@ -10,22 +10,40 @@
     border-radius: 50%;
     padding: 1.4rem 1.5rem;
     width: auto;
+    transition: all 1s ease;
 }
 
 .context {
     font-weight: 600;
     font-size: 19px;
-
+    color: #1f1f1f;
+    transition: color 1s ease;
 }
 
 .link {
     font-weight: 400;
     font-size: 16px;
-    transition: all .27s;
+    transition: color 1s;
 }
 
 .link:hover {
     color: #147EFB;
+}
+
+.contactItem.darkMode .icon {
+    background-color: rgba(0,0,0,0);
+    box-shadow: none;
+    transition: all 1s ease;
+}
+
+.contactItem.darkMode .link, .contactItem.darkMode .context {
+    color: white;
+    transition: 1s ease;
+}
+
+.contactItem.darkMode .link:hover {
+    color: #147EFB;
+    transition: color .27s;
 }
 
 @media only screen and (max-width: 767.98px) {

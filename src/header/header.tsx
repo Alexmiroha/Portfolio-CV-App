@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import s from './header.module.css'
+import DarkModeToggle from "../ReusableComponents/DarkModeToggle";
 
 
 type HeaderPropsType = {
@@ -47,7 +48,10 @@ const Header = (props:HeaderPropsType) => {
                     </li>
                 </ul>
             </nav>
-            <button onClick={props.toggleDarkMode}>Toggle Dark Mode</button>
+
+            <DarkModeToggle isDarkMode={props.isDarkMode} toggleDarkMode={props.toggleDarkMode}/>
+
+
             <button onClick={(event) => handlerButtonClick(event,null)}
                     className={`${s.downButton} ${headerActive ? s.downButtonActive : ''}`}>&#9660;</button>
         </div>
