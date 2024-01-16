@@ -13,7 +13,7 @@ const Intro = (props: IntroPropsType) => {
             <div className='contentContainer'>
                 <div className={s.introBlock}>
                     <IntroMain isDarkMode={props.isDarkMode}/>
-                    <IntroSkills/>
+                    <IntroSkills isDarkMode={props.isDarkMode}/>
                 </div>
             </div>
         </section>

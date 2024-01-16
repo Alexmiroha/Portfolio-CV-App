@@ -8,17 +8,19 @@ import REACT from '../../../img/logo192.png'
 import MUI from '../../../img/MUI.svg'
 import {Icon} from "./Icon";
 
-const IntroSkills = () => {
+type IntroSkills = {
+    isDarkMode: boolean
+}
+
+const tech = [HTML, CSS, JS, REACT, TS, MUI,]
+
+
+const IntroSkills = (props:IntroSkills) => {
     return (
-        <div className={s.introSkills}>
+        <div className={`${s.introSkills} ${props.isDarkMode? s.darkMode : ''}`}>
             <p className={s.description}>Tech Stack</p>
             <ul className={s.icons}>
-                <Icon src={HTML}/>
-                <Icon src={CSS}/>
-                <Icon src={JS}/>
-                <Icon src={REACT}/>
-                <Icon src={TS}/>
-                <Icon src={MUI}/>
+                {tech.map(icon => <Icon src={icon} isDarkMode={props.isDarkMode}/>)}
             </ul>
         </div>
     );

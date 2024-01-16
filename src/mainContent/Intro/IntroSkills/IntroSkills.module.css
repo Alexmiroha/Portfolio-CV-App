@@ -7,6 +7,7 @@
 .introSkills p {
     min-width: 125px;
     border-right: 1px solid black;
+    transition: all 1s ease;
 }
 
 .icons {
@@ -14,6 +15,12 @@
     margin-left: 60px;
     flex-wrap: wrap;
     gap: 25px;
+}
+
+.introSkills.darkMode p {
+    color: white;
+    border-right: 1px solid white;
+    transition: all 1s ease;
 }
 
 @media only screen and (min-width: 2561px) {

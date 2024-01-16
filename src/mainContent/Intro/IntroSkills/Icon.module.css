@@ -1,5 +1,4 @@
 .flipCard {
-    background-color: transparent;
     width: 39px;
     height: 39px;
     perspective: 1000px;
@@ -40,19 +39,7 @@
     border-radius: 100px;
     padding: 17px 17px;
     z-index: 100;
-}
-
-.logo {
-    width: 39px;
-    height: 39px;
-}
-
-@media only screen and (min-width: 2561px) {
-
-    .logo {
-        width: 82px;
-        height: 82px;
-    }
+    transition: background-color 1s ease;
 }
 
 .flipCardBack {
@@ -66,4 +53,26 @@
     padding: 17px 17px;
     margin-right: 22px;
     z-index: 50;
+}
+
+.logo {
+    width: 39px;
+    height: 39px;
+}
+
+/*====================dark-mode==============================*/
+
+.flipCard.darkMode .flipCardFront, .flipCardBack {
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 1s ease;
+}
+
+
+
+@media only screen and (min-width: 2561px) {
+
+    .logo {
+        width: 82px;
+        height: 82px;
+    }
 }
