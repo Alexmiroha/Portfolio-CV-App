@@ -9,7 +9,8 @@ export type ProjectComponentPropsType = {
     paragraph: string,
     stack: Array<string>,
     code: string,
-    demo: string
+    demo: string,
+    isDarkMode: boolean
 }
 
 const ProjectComponent = (props: ProjectComponentPropsType) => {
@@ -62,7 +63,7 @@ const ProjectComponent = (props: ProjectComponentPropsType) => {
     };
 
     return (
-        <div className={s.projectContainer}>
+        <div className={`${s.projectContainer} ${props.isDarkMode ? s.darkMode : ''}`}>
             <a className={s.projectLinkWrapper} href={props.demo}>
                 <div className={s.image} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                     <img ref={imageRef} src={imageUrlWithTimestamp} alt="ExampleImage"/>

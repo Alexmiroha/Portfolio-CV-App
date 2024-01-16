@@ -15,6 +15,14 @@
     margin: 35px 0 0 0;
 }
 
+/*========================dark-mode============================*/
+
+.darkMode {
+    color: white;
+    transition: color 1s ease;
+}
+
+
 @media only screen and (max-width: 767.98px) {
     .projects {
         margin: 50px 0 30px 0;

@@ -52,8 +52,9 @@ a {
 }
 
 
-.dark-mode .intro, .projects {
+.dark-mode .intro, .dark-mode .projects {
     background: #000 radial-gradient(45.2% 36.8% at 50% 41.099999999999994%, rgba(79, 0, 250, .25) 0%, rgba(0, 2, 18, 0) 100%);
+    transition: background 1s ease;
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
