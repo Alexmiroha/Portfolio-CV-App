@@ -6,10 +6,14 @@ import {Icon} from "../Intro/IntroSkills/Icon";
 import {MainTitle} from "../../ReusableComponents/mainTitle";
 import {BlueTitle} from "../../ReusableComponents/blueTitle";
 
-const AboutMe = () => {
+type AboutMePropsType = {
+    isDarkMode: boolean
+}
+
+const AboutMe = (props:AboutMePropsType) => {
     return (
 
-        <section className='aboutMe' id='About'>
+        <section className={`${'AboutMe'} ${props.isDarkMode? s.darkMode : s.whiteMode}`} id='About'>
             <div className='contentContainer'>
                 <div className={s.AboutMe}>
                     <div className={s.imageSection}>

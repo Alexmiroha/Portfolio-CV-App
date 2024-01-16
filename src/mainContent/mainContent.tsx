@@ -13,7 +13,7 @@ const MainContent = (props: MainContentPropsType) => {
     return (
         <div className={s.mainContent}>
             <Intro isDarkMode={props.isDarkMode}/>
-            <AboutMe/>
+            <AboutMe isDarkMode={props.isDarkMode}/>
             <Projects/>
             <Contact/>
         </div>

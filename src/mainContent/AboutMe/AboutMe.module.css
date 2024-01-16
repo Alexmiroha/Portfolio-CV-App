@@ -174,8 +174,31 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
         justify-content: center;
         align-items: center;
+        transition: background 1s ease;
+    }
+
+    /*===============dark-mode===============================*/
+    .darkMode .infoSection {
+        background: black;
+        box-shadow: 0 0 50px rgba(210, 97, 251, 0.2);
+        transition: background 1s ease;
     }
 }
+
+.whiteMode {
+    color: #1f1f1f;
+    background-color: white;
+    transition: color, background-color 1s ease;
+}
+
+/*===================================dark-mode==========================================*/
+.darkMode {
+    background-color: black;
+    color: white;
+    transition: color, background-color 1s ease;
+}
+
+
 
 @media only screen and (max-width: 767.98px) {
     .description {
