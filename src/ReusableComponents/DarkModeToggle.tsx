@@ -11,7 +11,7 @@ type DarkModeTogglePropsType = {
 const DarkModeToggle = (props:DarkModeTogglePropsType) => {
     return (
         <div className={s.toggleWrapper}>
-            <input checked={props.isDarkMode}
+            <input defaultChecked={props.isDarkMode}
                    onClick={props.toggleDarkMode}
                    className={s.input}
                    type="checkbox"

@@ -20,7 +20,7 @@ const IntroSkills = (props:IntroSkills) => {
         <div className={`${s.introSkills} ${props.isDarkMode? s.darkMode : ''}`}>
             <p className={s.description}>Tech Stack</p>
             <ul className={s.icons}>
-                {tech.map(icon => <Icon src={icon} isDarkMode={props.isDarkMode}/>)}
+                {tech.map(icon => <Icon src={icon} isDarkMode={props.isDarkMode} key={icon}/>)}
             </ul>
         </div>
     );

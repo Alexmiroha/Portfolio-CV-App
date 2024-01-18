@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import Header from "./header/header";
 import MainContent from "./mainContent/mainContent";
@@ -7,9 +7,19 @@ import {ScrollButton} from "./mainContent/ScrollToTopButton";
 
 function App() {
 
-    const [isDarkMode, setDarkMode] = useState(false)
+
+
+    const storedDarkMode = localStorage.getItem('darkMode') === 'true';
+    const [isDarkMode, setDarkMode] = useState(storedDarkMode);
+
+    useEffect(() => {
+        localStorage.setItem('darkMode', isDarkMode.toString());
+    }, [isDarkMode])
+
+
+
     const toggleDarkMode = () => {
-        isDarkMode? setDarkMode(false) : setDarkMode(true)
+        setDarkMode(!isDarkMode);
     }
 
     return (

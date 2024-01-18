@@ -19,6 +19,7 @@ const projects = [
         stack: ['Gulp', 'CSS', 'JS'],
         code: 'https://github.com/Alexmiroha/FuniroShop/tree/gh-pages',
         demo: 'https://alexmiroha.github.io/FuniroShop/',
+        id: 1
     },
     {
         image: luxestate,
@@ -27,6 +28,7 @@ const projects = [
         stack: ['React', 'CSS'],
         code: 'https://github.com/Alexmiroha/luxestateReact',
         demo: 'https://alexmiroha.github.io/luxestateReact/',
+        id:2
     },
 ]
 
@@ -51,6 +53,7 @@ const Projects = (props: ProjectsPropsType) => {
                                               code={project.code}
                                               demo={project.demo}
                                               isDarkMode={props.isDarkMode}
+                                              key={project.id}
                             />)}
 
                     </div>
