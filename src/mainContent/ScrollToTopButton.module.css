@@ -6,7 +6,7 @@
     color: white;
     cursor: pointer;
     position: fixed;
-    top: calc(100% - 180px);
+    top: calc(100dvh - 180px);
     left: 85%;
     background: rgba(20, 126, 251, 1);
     padding: 24px 78px 10px 53px;

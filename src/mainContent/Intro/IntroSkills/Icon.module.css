@@ -15,8 +15,10 @@
     transform-style: preserve-3d;
 }
 
-.flipCard:hover .flipCardInner {
-    transform: rotateY(180deg);
+@media (any-hover: hover) {
+    .flipCard:hover .flipCardInner {
+        transform: rotateY(180deg);
+    }
 }
 
 .flipCardFront,

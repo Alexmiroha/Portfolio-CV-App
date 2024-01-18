@@ -59,6 +59,10 @@
         border-left: 1px solid black;
     }
 
+    .introSkills.darkMode p {
+        border-left: 1px solid white;
+    }
+
     .icons {
         margin: 20px 0 0 0;
         justify-content: center;
