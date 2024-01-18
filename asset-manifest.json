@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-CV-App/static/css/main.df09b698.css",
-    "main.js": "/Portfolio-CV-App/static/js/main.1a37ec9c.js",
+    "main.js": "/Portfolio-CV-App/static/js/main.affe312b.js",
     "static/js/787.13a0712d.chunk.js": "/Portfolio-CV-App/static/js/787.13a0712d.chunk.js",
     "static/media/laptop.webp": "/Portfolio-CV-App/static/media/laptop.2130052974fa25707dc9.webp",
     "static/media/luxestate-min.webp": "/Portfolio-CV-App/static/media/luxestate-min.04c3d03bc79012bce7be.webp",
@@ -14,11 +14,11 @@
     "static/media/MUI.svg": "/Portfolio-CV-App/static/media/MUI.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/html.svg": "/Portfolio-CV-App/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
     "main.df09b698.css.map": "/Portfolio-CV-App/static/css/main.df09b698.css.map",
-    "main.1a37ec9c.js.map": "/Portfolio-CV-App/static/js/main.1a37ec9c.js.map",
+    "main.affe312b.js.map": "/Portfolio-CV-App/static/js/main.affe312b.js.map",
     "787.13a0712d.chunk.js.map": "/Portfolio-CV-App/static/js/787.13a0712d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df09b698.css",
-    "static/js/main.1a37ec9c.js"
+    "static/js/main.affe312b.js"
   ]
 }
