@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-CV-App/static/css/main.ee128cab.css",
-    "main.js": "/Portfolio-CV-App/static/js/main.3a480b5e.js",
+    "main.css": "/Portfolio-CV-App/static/css/main.ec86a45c.css",
+    "main.js": "/Portfolio-CV-App/static/js/main.cbf3576c.js",
     "static/js/787.13a0712d.chunk.js": "/Portfolio-CV-App/static/js/787.13a0712d.chunk.js",
     "static/media/laptop.webp": "/Portfolio-CV-App/static/media/laptop.2130052974fa25707dc9.webp",
     "static/media/luxestate-min.webp": "/Portfolio-CV-App/static/media/luxestate-min.04c3d03bc79012bce7be.webp",
@@ -11,14 +11,14 @@
     "static/media/js.svg": "/Portfolio-CV-App/static/media/js.de4c2594613e34b15666206bbede7327.svg",
     "static/media/css.svg": "/Portfolio-CV-App/static/media/css.9cecabbf6ce67609c48bc4f280a11002.svg",
     "index.html": "/Portfolio-CV-App/index.html",
+    "static/media/MUI.svg": "/Portfolio-CV-App/static/media/MUI.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/html.svg": "/Portfolio-CV-App/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
-    "static/media/MUI.svg": "/Portfolio-CV-App/static/media/MUI.1e15d3bdbce178bcbe2c18e18f228459.svg",
-    "main.ee128cab.css.map": "/Portfolio-CV-App/static/css/main.ee128cab.css.map",
-    "main.3a480b5e.js.map": "/Portfolio-CV-App/static/js/main.3a480b5e.js.map",
+    "main.ec86a45c.css.map": "/Portfolio-CV-App/static/css/main.ec86a45c.css.map",
+    "main.cbf3576c.js.map": "/Portfolio-CV-App/static/js/main.cbf3576c.js.map",
     "787.13a0712d.chunk.js.map": "/Portfolio-CV-App/static/js/787.13a0712d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee128cab.css",
-    "static/js/main.3a480b5e.js"
+    "static/css/main.ec86a45c.css",
+    "static/js/main.cbf3576c.js"
   ]
 }
