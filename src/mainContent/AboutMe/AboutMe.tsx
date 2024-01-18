@@ -27,17 +27,14 @@ const AboutMe = (props:AboutMePropsType) => {
                         <MainTitle title={'An interested and enthusiastic Front-End Developer based in Warsaw, Poland🗺️'}
                         />
                         <p className={s.description}>
-                            As a Junior Front-End Developer,
-                            I possess an impressive arsenal of skills
-                            in HTML, CSS, JavaScript, React, Tailwind,
-                            and SCSS. I excel in designing and maintaining
-                            responsive websites that offer a smooth user
-                            experience. My expertise lies in crafting dynamic,
-                            engaging interfaces through writing clean and optimized
-                            code and utilizing cutting-edge development tools and
-                            techniques. I am also a team player who thrives in
-                            collaborating with cross-functional teams to produce
-                            outstanding web applications.
+                            Enthusiastic about learning and always ready to enhance my skills,
+                            I am proactive and unafraid of challenges.
+                            My primary goal is to create high-quality products that bring tangible benefits.
+                            With experience in HTML, CSS, JavaScript, React, Tailwind, and SCSS, among other technologies,
+                            I specialize in the art of crafting and maintaining responsive websites that prioritize a seamless user experience.
+                            With enthusiasm, I adeptly craft dynamic, captivating interfaces through the
+                            deployment of pristine, optimized code and harnessing cutting-edge development tools.
+
                         </p>
                     </div>
                 </div>

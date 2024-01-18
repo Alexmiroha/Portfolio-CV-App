@@ -17,8 +17,9 @@ const IntroMain = (props: IntroMainPropsType) => {
                     <img className={s.icon} src={icon} alt="icon React"/>
                 </h1>
                 <p className={s.description}>
-                    Hi, I'm Oleksii Miroshnichenko. <br/>A passionate Front-end React <br/>Developer
-                    based in Warsaw, <br/>Poland.
+                    Greetings, I'm Oleksii Miroshnichenko,
+                    a Creative Front-end Developer specializing
+                    in React based in the heart of Warsaw, Poland.
                     <BiMap color='#d261fb'/>
                 </p>
             </div>
