@@ -64,7 +64,7 @@
 
 /*====================dark-mode==============================*/
 
-.flipCard.darkMode .flipCardFront, .flipCardBack {
+.flipCard.darkMode .flipCardFront, .flipCard.darkMode .flipCardBack {
     background-color: rgba(0, 0, 0, 0);
     transition: background-color 1s ease;
 }
